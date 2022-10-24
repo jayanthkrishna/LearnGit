@@ -1,0 +1,25 @@
+git init  --- To initialize the repository. Creates .git folder
+
+git status
+
+git add .  --- adds all files in the current folder to stage
+
+git commit -m "message" --- takes a screenshot of current files in the folder.
+
+git log --- to see all commits
+
+git reset hashvalue ---- resets the commit to that particular commit.
+
+git stash --- do this after you have staged the files. This command saves these changes to a new hash an keep it in the back stage.
+
+git stash pop ---- to get all the changes saved using the stash command
+
+
+git stash clear --- clear the changes saved from stash command
+
+
+git remote add origin repository-name
+
+git push origin master
+
+
