@@ -22,4 +22,8 @@ git remote add origin repository-name
 
 git push origin master
 
+git branch branch-name
+
+git checkout branch-name
+
 
